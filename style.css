@@ -1,0 +1,90 @@
+::selection{
+    color: #ffffff;
+    background: #6665ee;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.item-ul {
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.item-ul {
+  text-shadow: 4px 4px 8px rgba(140, 140, 140, 1);
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  background-clip: text;
+  text-shadow: 4px 4px 8px rgba(140, 140, 140, 1);
+  transition-duration: 0.5s;
+}
+
+h1:hover {
+  text-shadow: -3px -3px 8px rgba(140, 140, 140, 1);
+}
+
+.form {
+  width: 10vw;
+}
+
+#list-items {
+  font-family: "Raleway", sans-serif;
+  list-style: lower-roman;
+}
+
+.list-input {
+  padding: 0.8em;
+  transition-duration: 0.7s;
+  border-radius: 0.6em;
+  box-shadow: 6px 6px 13px #bebebe, -6px -6px 13px #ffffff;
+}
+
+.list-input:hover {
+  box-shadow: -4px -4px 13px #bebebe, 4px 4px 13px #ffffff;
+}
+
+.input-div {
+  position: sticky;
+  margin-top: 20vh;
+  transition-duration: 1s;
+}
+
+button {
+  position: relative;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  padding: 0.5em;
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 13px #bebebe, -6px -6px 13px #ffffff;
+  transition-duration: 0.6s;
+}
+
+button:hover {
+  box-shadow: -4px -4px 10px #bebebe, 6px 6px 13px #ffffff;
+}
+
+.btn {
+  display: flex;
+}
+
+#add-item {
+  padding: 0.3em;
+  position: absolute;
+  height: 2em;
+  width: 2em;
+}
+
+#clear-btn {
+  margin-left: 5em;
+  padding: 0.3em;
+  position: absolute;
+  height: 2em;
+  width: 2em;
+}
